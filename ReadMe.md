@@ -107,6 +107,7 @@ source venv/bin/activate
 #### 4. Install Dependencies
 ```bash
 pip install -r requirements.txt
+pip install langdetect
 ```
 
 #### 5. Configure Environment Variables
@@ -178,18 +179,6 @@ curl -X POST "http://localhost:8000/api/v1/generate" ^
 
 ---
 
-## ⚙️ Updating Dependencies
-
-### Add a new package to requirements.txt
-```bash
-pip install package_name
-pip freeze > requirements.txt
-```
-
-### Install updated requirements
-```bash
-pip install -r requirements.txt --upgrade
-```
 
 ---
 
@@ -286,4 +275,5 @@ This README.md includes:
 
 
 The instructions are designed to be beginner-friendly while maintaining professional quality. The virtual environment setup is given proper emphasis since it's critical for the application to work correctly, and the user specifically mentioned deleting the venv folder for GitHub upload.
+
 
