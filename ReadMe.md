@@ -267,7 +267,7 @@ Contributions are welcome! Please follow these steps:
 ## 📧 Contact
 For questions, suggestions, or support:
 - GitHub Issues: https://github.com/aymantaha3345/TranslAI/issues
-- Email: aymantaha3345@gmail.com
+- Email: aymantaha89pp@gmail.com
 
 ---
 
@@ -286,3 +286,4 @@ This README.md includes:
 
 
 The instructions are designed to be beginner-friendly while maintaining professional quality. The virtual environment setup is given proper emphasis since it's critical for the application to work correctly, and the user specifically mentioned deleting the venv folder for GitHub upload.
+
