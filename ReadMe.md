@@ -47,54 +47,6 @@ D:\TranslAI/
 ├── README.md                    # 📖 This documentation
 └── LICENSE                      # 📄 MIT License
 ```
-Here's the updated README.md with complete virtual environment setup instructions:
-
-```markdown
-# 🌐 TRANSLai
-## Multilingual Prompt Translation & Enhancement Middleware for Image Generation Models
-
-![Python Version](https://img.shields.io/badge/python-3.11+-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.119.0-black)
-![License](https://img.shields.io/badge/license-MIT-green)
-
----
-
-## 🎯 The Problem
-Most image generation models (including OpenAI DALL-E, Midjourney, and similar systems) perform poorly when receiving prompts in non-English languages. Users from non-English speaking backgrounds face significant barriers to accessing these powerful creative tools, resulting in lower quality outputs and frustrating user experiences.
-
-## ✨ The Solution
-**TRANSLai** is a production-ready middleware service that bridges this language gap by:
-- ✅ Accepting prompts in **any human language**
-- ✅ Automatically detecting and translating them to high-quality English
-- ✅ Optionally enhancing visual quality while **strictly preserving user intent**
-- ✅ Forwarding the optimized prompt to image generation models
-- ✅ Returning the generated image with comprehensive metadata
-
-**This system does not train models and does not generate images internally** - it acts as an intelligent translation and enhancement layer between users and existing image generation APIs.
-
----
-
-## 🏗️ Project Structure
-```
-TranslAI/
-├── translai/                    # 📦 Main application package
-│   ├── __init__.py              # 📄 Package initialization
-│   └── app/                     # 📁 FastAPI application
-│       ├── __init__.py          # 📄 App package initialization
-│       ├── main.py              # 🚀 Application entry point
-│       ├── config.py            # ⚙️  Configuration management
-│       ├── schemas.py           # 📋 Pydantic models
-│       ├── pipeline.py          # 🔗 Processing pipeline
-│       ├── providers.py         # 🤖 LLM provider abstraction
-│       ├── image_gateway.py     # 🖼️  Image generation gateway
-│       └── logger.py            # 📝 Advanced logging system
-├── .env.example                 # 📋 Environment example file
-├── .env                         # 🔑 Environment configuration (created from .env.example)
-├── requirements.txt             # 📦 Python dependencies
-├── run.py                       # ⚡ Application runner
-├── README.md                    # 📖 This documentation
-└── LICENSE                      # 📄 MIT License
-```
 
 > **Note**: The `venv/` folder is **NOT** included in this repository (as per best practices). You'll need to create it locally following the setup instructions below.
 
