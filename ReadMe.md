@@ -9,6 +9,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
+> ⚠️ This is a **starter framework**. Developers must **adapt and customize** it for their own projects. It provides a **first-level setup** for prompt translation and enhancement, not a fully production-ready solution.
+---
 
 ## 🎯 The Problem
 Most image generation models (including OpenAI DALL-E, Midjourney, and similar systems) perform poorly when receiving prompts in non-English languages. Users from non-English speaking backgrounds face significant barriers to accessing these powerful creative tools, resulting in lower quality outputs and frustrating user experiences.
@@ -275,5 +277,6 @@ This README.md includes:
 
 
 The instructions are designed to be beginner-friendly while maintaining professional quality. The virtual environment setup is given proper emphasis since it's critical for the application to work correctly, and the user specifically mentioned deleting the venv folder for GitHub upload.
+
 
 
